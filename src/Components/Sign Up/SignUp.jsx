@@ -1,7 +1,10 @@
 import React from 'react'
 import "./SignUp.css"
+import { useNavigate } from 'react-router-dom'
 
 const SignUp = () => {
+
+  const Nav = useNavigate()
   return (
     <div className='body'>
         <div className='bodywrap'>
@@ -21,7 +24,7 @@ const SignUp = () => {
           <input type="text" placeholder="First Name" name="firstName" required />
         </div>
         <div className="form-group">
-        <input type="text" placeholder="Last Name" name="lastName" required />
+        <input type="text" placeholder="Company Name" name="companyName" required />
         </div>
       </div>
 
@@ -46,10 +49,10 @@ const SignUp = () => {
       <input type="checkbox" id="terms" required />
       <label className='terms'>I agree to all the <span>Terms, Privacy Policy</span></label>
       <div className='button'>
-    <button>Resgister</button>
+    <button onClick={(()=> Nav("/Login"))}>Resgister</button>
     </div>
     <div className='account'>
-    <label className='terms'>Already have an account? <span>Login</span></label>
+    <label className='terms'>Already have an account? <span onClick={(()=> Nav("/Login"))}>Login</span></label>
     </div>
     </div>
     
