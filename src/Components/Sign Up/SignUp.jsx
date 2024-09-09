@@ -1,5 +1,6 @@
 import React from 'react'
 import "./SignUp.css"
+import { FaArrowLeft } from 'react-icons/fa6'
 import { useNavigate } from 'react-router-dom'
 
 const SignUp = () => {
@@ -15,6 +16,9 @@ const SignUp = () => {
                 <div className='bodywraps'></div>
             </div>
             <div className='bodywrapper1'>
+            <div className="back-button1">
+        <FaArrowLeft onClick={(()=> Nav("/"))}/>
+      </div>
             <div className="register-container">
       <h1>Welcome,</h1>
       <h2>Create an Employer Account</h2>
@@ -46,7 +50,7 @@ const SignUp = () => {
         </div>
       </div>
       </form>
-      <input type="checkbox" id="terms" required />
+      <input type="checkbox" id="terms" className="checkbox" required />
       <label className='terms'>I agree to all the <span>Terms, Privacy Policy</span></label>
       <div className='button'>
     <button onClick={(()=> Nav("/Login"))}>Resgister</button>
