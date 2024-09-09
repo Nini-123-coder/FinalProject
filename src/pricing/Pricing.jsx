@@ -1,6 +1,6 @@
 import React, { useReducer } from 'react';
 import PropTypes from 'prop-types';
-import './pricing.css';
+import './Pricing.css';
 
 function Pricing({ property1 }) {
   // Reducer function to manage state
