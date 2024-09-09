@@ -31,8 +31,20 @@ const StaffPage = () => {
                 <div className='center1'>
                     <h3>DASHBOARD</h3>
                 </div>
-                <div centers2>
-                    <div className='y'></div>
+                <div className='center2'>
+                    <div className='center3'></div>
+                    <div className='center4'>
+                        <div className='centers'>
+                            <h3>Moses Egwu Upaka</h3>
+                            <h4>Frontend Developer</h4>
+                        </div>
+                    </div>
+                    <div className='center5'>
+                        <div className='center6'>
+                            <button>Edit Profile</button>
+                        </div>
+                        <div className='center7'></div>
+                    </div>
                 </div>
             </div>
             

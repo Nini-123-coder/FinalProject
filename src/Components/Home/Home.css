@@ -1,0 +1,256 @@
+.HomeContainer{
+    width: 100%;
+    height: auto;
+    background-color: #E3EDF9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 60px;
+    
+    
+}
+
+.firstSection{
+    width: Hug 1,245px;
+    height: Hug 440px;
+    top: 165px;
+    left: 101px;
+    gap: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    
+}
+.left{
+    width: Hug 1,245px;
+height: Hug 440px;
+gap: 38px;
+
+
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    /* padding-left: 90px; */
+    gap: 40px;
+
+    & h1{
+        font-family: Poppins;
+        font-size: 50px;
+        font-weight: 600;
+        line-height: 67px;
+        color: #2E2E2E;
+
+    }
+
+    & p{
+        font-family: Poppins;
+        font-size: 27px;
+        font-weight: 400;
+        line-height: 41.04px;
+        color: #2E2E2E;
+
+
+    }
+
+    & button{
+        width: 204px;
+        height: 62px;
+         padding: 20px 50px 20px 50px;
+         gap: 10px;
+        border-radius: var(--Spacings);
+         opacity: 0px;
+         background-color: #007BFF;
+         cursor: pointer;
+
+    }
+
+
+}
+
+.right{
+    width: 572px;
+    height: 440px;
+   align-items: center;
+    display: flex;
+    justify-content: center;
+    /* padding-right: 120px; */
+   
+    
+
+    & img{
+        width: 572px;
+        height: 440px;
+    }
+}
+
+.secondsection{
+    width: 1239px;
+    height:1352px ;
+    /* background-color: aquamarine; */
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.topbox{
+    width: 100%;
+    height: 540px;
+    /* background-color: black; */
+    gap: 96px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imageholder{
+    width: 508px;
+    height: 540px;
+    
+    
+}
+
+.imagewords{
+    width:  635px;
+     height:417px;
+     gap: 22px;
+     /* background-color: #007BFF; */
+
+     & h1 {
+        font-family: Poppins;
+font-size: 50px;
+font-weight: 600;
+line-height: 67px;
+text-align: right;
+
+     }
+
+     & p{
+        font-family: Poppins;
+       font-size: 27px;
+       font-weight: 400;
+       line-height: 41.04px;
+       text-align: right;
+
+     }
+
+
+
+}
+
+.bottombox{
+    height: 520px;
+    width: 1227px;
+    /* background-color: aquamarine; */
+    gap: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    .imagewords{
+        width:  635px;
+         height:458px;
+         gap: 22px;
+         /* background-color: #007BFF; */
+    
+         & h1 {
+            font-family: Poppins;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 67px;
+    text-align: left;
+    
+         }
+    
+         & p{
+            font-family: Poppins;
+           font-size: 27px;
+           font-weight: 400;
+           line-height: 41.04px;
+           text-align: left;
+    
+         }
+
+         .imageholder{
+            width: 552px;
+            height: 520px;
+         }
+    
+    
+}
+}
+.CarouselContainer {
+    width: 100%;
+    height: 70vh;
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    overflow: hidden; 
+    display: flex;
+    flex-direction: column;
+    gap: 61px;
+}
+
+
+.CarouselWrapper {
+    display: flex;
+    gap: 40px;
+    animation: slide 10s linear infinite;
+}
+
+
+.CarouselContainer img {
+    width: 646.85px; 
+    height: 333px; 
+}
+
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.Feedback{
+    width:  600px;
+   height:  121px;
+     gap: 35px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     margin-top: 20px;
+
+     & h1{
+       
+       font-family: Poppins;
+      font-size: 48px;
+      font-weight: 600;
+      line-height: 57.6px;
+       text-align: center;
+       color: #1C1F35;
+
+         }
+
+         & p{
+            font-family: Poppins;
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 31.5px;
+             letter-spacing: 0.02em;
+            text-align: center;
+
+         }
+
+
+}
