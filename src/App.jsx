@@ -4,9 +4,12 @@ import Layout from './Layout/Layout'
 import SignUp from './Components/Sign Up/SignUp'
 import GetStarted from './Components/Get/GetStarted'
 import Login from './Components/Login/Login'
+import CreatePassWord from './Components/Create/CreatePassWord'
 import {HashRouter, Routes, Route } from 'react-router-dom'
-import ("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-
+import StaffSignUp from './Components/Staff/StaffSignUp'
+import "@fontsource/poppins"
+import ForgotPassword from './Components/Forgot/ForgotPassword'
+import StaffPage from './Components/StaffPage/StaffPage'
 
 
 const App = () => {
@@ -17,6 +20,10 @@ const App = () => {
         <Route path='/' element = {<GetStarted/>} />
         <Route path='/SignUp' element = {<SignUp/>} />
         <Route path='/Login' element = {<Login/>} />
+        <Route path='/StaffSignUp' element = {<StaffSignUp/>} />
+        <Route path='/CreatePassWord' element = {<CreatePassWord/>} />
+        <Route path='/ForgotPassword' element = {<ForgotPassword/>} />
+        <Route path='/StaffPage' element = {<StaffPage/>}/>
       </Routes>
     </HashRouter>
   )

@@ -35,10 +35,10 @@ const Nav = useNavigate()
           <h2>I was invited to join a company</h2>
           <p>You received an invitation to join a company and want to set up your personal account.</p>
         </div>
-        <button className="select-button">Select</button>
+        <button className="select-button" onClick={(()=> Nav("/StaffSignUp"))}>Select</button>
         </div>
         <div className="login-container1">
-        <a href="#" className="login-link1">Already have an account? <span onClick={(()=> Nav("/Login"))}>Log In</span></a>
+        <a  className="login-link1">Already have an account? <span onClick={(()=> Nav("/Login"))}>Log In</span></a>
       </div>
         </div>
               </div>
