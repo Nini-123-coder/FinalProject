@@ -1,0 +1,207 @@
+.FooterContainer{
+    width: 100%;
+    height: 50vh;
+    background-color: #2E2E2E;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.footerwrapper{
+    width:100% ;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rightFooter{
+    width:30%;
+    height: 100%;
+     /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: flex-start;
+     margin-left: 40px;
+     margin-top: 70px;
+    
+
+     & img{
+         /* margin-top: 40px; */
+     }
+
+}
+
+
+.contactHolder{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5px;
+    font-family: Poppins;
+     font-size: 16px;
+   font-weight: 400;
+   line-height: 19.2px;
+   color:#FFFFFF;
+   margin-top: 20px;
+
+
+}
+
+.leftfooter{
+    width:60% ;
+    height: 100%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.Legal{
+    width:55%;
+    height:100% ;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content:first baseline;
+    font-family: Rubik;
+     font-size: 25px;
+      font-weight: 500;
+       line-height: 29.63px;
+       color: #FFFFFF;
+
+
+    
+    & h6{
+        margin-top: 90px;
+        font-family: Krub;
+         font-size: 16px;
+          font-weight: 500;
+           line-height: 40px;
+
+
+        
+    }
+    & p {
+        margin-top: 20px;
+        font-family: Krub;
+        font-size: 16px;
+        font-weight: 500;
+         line-height: 40px;    
+
+
+    }
+    
+}
+
+.Emailholder{
+    width: 40%;
+    height: 100%;
+    /* background-color: aqua; */
+    color: #FFFFFF;
+
+    & h3{
+        font-family: Rubik;
+       font-size: 25px;
+       font-weight: 500;
+       line-height: 29.63px;
+
+
+    }
+
+    & input{
+        width: 317px;
+        height: 60px;
+         gap: 0px;
+         opacity: 0px;
+          border: 1px solid #4E5683;
+          margin-top: 90px;
+          border: none;
+    }
+
+   
+}
+
+.sendbutton{
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    gap: 80px;
+   
+
+
+    & button{
+        width: Hug 193px;
+       height: Hug 67px;
+       padding: 19px 36px 19px 36px;
+       gap: 30px;
+       opacity: 0px;
+       background-color: #FD943B;
+       color: #FAFAFA;
+       font-family: Poppins;
+       font-size: 24px;
+       font-weight: 600;
+       line-height: 28.8px;
+       border: none;
+       cursor: pointer;
+      
+
+       
+
+    }
+}
+
+.SocialmediaWrapper{
+    width:21px;
+    height:  86px;
+    gap: 10px; 
+    opacity: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+
+}
+
+.copyright{
+    width: 100%;
+    height: 17%;
+     border: 1px solid #4E5683;
+     text-align: center;
+     display: flex;
+     align-items: center;
+     justify-content: flex-start;
+     gap: 400px;
+     padding-left: 40px;
+     
+     & h5{
+     font-family: Poppins;
+     font-size: 14px;
+     font-weight: 700;
+     line-height: 16.8px;
+     color: #FAFAFA;
+
+
+     }
+
+     & ul{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 60px;
+        list-style: none ;
+        font-family: Krub;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 40px;
+        text-align: left;
+        color: #8388A7;
+
+
+
+       
+     }
+}

@@ -1,0 +1,441 @@
+.pricingContainer{
+    width: 100%;
+    height: auto;
+    background-color: #E3EDF9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.Affordablewrapper{
+    width: 1193px;
+  height: 500px;
+    padding: 0px 10px 0px 10px;
+    gap: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+
+    & h1{
+        font-family: Poppins;
+font-size: 50px;
+font-weight: 600;
+line-height: 67px;
+text-align: left;
+
+    }
+
+    & p{
+        font-family: Poppins;
+        font-size: 27px;
+        font-weight: 400;
+        line-height: 41.04px;
+        text-align: left;
+         
+    }
+
+}
+.Affordableimage{
+    width: 500px;
+    height: 500px;
+
+
+}
+
+.planHeader{
+    width: 100%;
+    height: 153px;
+    gap: 38px;
+
+    & h1{
+        font-family: Poppins;
+   font-size: 50px;
+    font-weight: 600;
+    line-height: 67px;
+    text-align: center;
+
+    }
+
+    & p{
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24.12px;
+        text-align: center;
+        
+
+    }
+}
+
+.price {
+    align-items: center;
+    border-radius: var(--worket-1-radius-s);
+    box-shadow: 0px 1px 2px #0000000d;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: var(--worket-1-spacing-m) 0px 0px 0px;
+    position: relative;
+  }
+  
+  .price .tabs {
+    align-items: center;
+    background-color: var(--worket-1-warning-warning);
+    border-radius: var(--worket-1-radius-sm);
+    display: inline-flex;
+    flex: 0 0 auto;
+    padding: var(--worket-1-spacing-xs);
+    position: relative;
+  }
+  
+  .price .tab-item {
+    align-items: flex-start;
+    border-radius: var(--worket-1-radius-s);
+    gap: var(--worket-1-spacing-s);
+    position: relative;
+  }
+  
+  .price .text-wrapper {
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+  }
+  
+  .price .div-wrapper {
+    align-items: flex-start;
+    border-radius: var(--worket-1-radius-s);
+    gap: var(--worket-1-spacing-s);
+    position: relative;
+  }
+  
+  .price .div {
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+  }
+  
+  .price .frame {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 40px;
+    position: relative;
+  }
+  
+  .price .card-header {
+    align-items: flex-start;
+    background-color: #ffffff;
+    border-radius: var(--worket-1-spacing-ml);
+    box-shadow: 0px 13px 28px #0000001a, 0px 51px 51px #00000017, 0px 115px 69px #0000000d, 0px 204px 81px #00000003,
+      0px 318px 89px transparent;
+    display: flex;
+    flex-direction: column;
+    gap: var(--worket-1-spacing-xs);
+    padding: var(--worket-1-spacing-ml);
+    position: relative;
+    width: 250px;
+  }
+  
+  .price .card-title {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .price .text-wrapper-2 {
+    color: var(--worket-1-base-base-black);
+    font-family: var(--worket-1-desktop-body-feature-accent-font-family);
+    font-size: var(--worket-1-desktop-body-feature-accent-font-size);
+    font-style: var(--worket-1-desktop-body-feature-accent-font-style);
+    font-weight: var(--worket-1-desktop-body-feature-accent-font-weight);
+    letter-spacing: var(--worket-1-desktop-body-feature-accent-letter-spacing);
+    line-height: var(--worket-1-desktop-body-feature-accent-line-height);
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .price .card-description {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+  }
+  
+  .price .p {
+    align-self: stretch;
+    color: var(--worket-1-neutrals-neutrals700);
+    font-family: "Poppins-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 14.4px;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+  }
+  
+  .price .frame-2 {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+  }
+  
+  .price .text-wrapper-3 {
+    color: var(--worket-1-neutrals-neutrals700);
+    font-family: "Poppins-Thin", Helvetica;
+    font-size: 29px;
+    font-weight: 100;
+    letter-spacing: 0;
+    line-height: 34.8px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .price .div-2 {
+    color: var(--worket-1-neutrals-neutrals700);
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-size: 48px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 57.6px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .price .button {
+    all: unset;
+    align-items: center;
+    background-color: var(--worket-1-secondary-color-secondary-color);
+    border-radius: var(--worket-1-radius-s);
+    box-sizing: border-box;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: var(--worket-1-spacing-s);
+    justify-content: center;
+    padding: var(--worket-1-spacing-sm) var(--worket-1-radius-lg) var(--worket-1-spacing-sm) var(--worket-1-radius-lg);
+    position: relative;
+  }
+  
+  .price .text-wrapper-4 {
+    color: var(--worket-1-base-base-white);
+    font-family: var(--worket-1-desktop-body-caption-accent-font-family);
+    font-size: var(--worket-1-desktop-body-caption-accent-font-size);
+    font-style: var(--worket-1-desktop-body-caption-accent-font-style);
+    font-weight: var(--worket-1-desktop-body-caption-accent-font-weight);
+    letter-spacing: var(--worket-1-desktop-body-caption-accent-letter-spacing);
+    line-height: var(--worket-1-desktop-body-caption-accent-line-height);
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .price .core-payroll {
+    align-self: stretch;
+    color: var(--worket-1-neutrals-neutrals700);
+    font-family: "Poppins-Regular", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 18.3px;
+    position: relative;
+  }
+  
+  .price .card-footer {
+    align-self: stretch;
+    height: 64px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .price.one {
+    width: 1054px;
+  }
+  
+  .price.two {
+    width: 1064px;
+  }
+  
+  .price.one .tab-item {
+    background-color: var(--worket-1-secondary-color-secondary-color);
+    box-shadow: 0px 1px 2px #0000000d;
+    display: inline-flex;
+    flex: 0 0 auto;
+    padding: var(--worket-1-spacing-sm);
+  }
+  
+  .price.two .tab-item {
+    display: flex;
+    padding: var(--worket-1-spacing-xs) var(--worket-1-spacing-sm) var(--worket-1-spacing-xs) var(--worket-1-spacing-sm);
+    width: 95px;
+  }
+  
+  .price.one .text-wrapper {
+    color: var(--worket-1-base-base-white);
+    font-family: var(--worket-1-desktop-body-caption-accent-font-family);
+    font-size: var(--worket-1-desktop-body-caption-accent-font-size);
+    font-style: var(--worket-1-desktop-body-caption-accent-font-style);
+    font-weight: var(--worket-1-desktop-body-caption-accent-font-weight);
+    letter-spacing: var(--worket-1-desktop-body-caption-accent-letter-spacing);
+    line-height: var(--worket-1-desktop-body-caption-accent-line-height);
+    width: 97px;
+  }
+  
+  .price.two .text-wrapper {
+    color: var(--worket-1-neutrals-neutrals700);
+    flex: 1;
+    font-family: "Poppins-Medium", Helvetica;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 16.8px;
+  }
+  
+  .price.one .div-wrapper {
+    display: flex;
+    padding: var(--worket-1-spacing-xs) var(--worket-1-spacing-sm) var(--worket-1-spacing-xs) var(--worket-1-spacing-sm);
+    width: 95px;
+  }
+  
+  .price.two .div-wrapper {
+    background-color: var(--worket-1-secondary-color-secondary-color);
+    box-shadow: 0px 1px 2px #0000000d;
+    display: inline-flex;
+    flex: 0 0 auto;
+    padding: var(--worket-1-spacing-sm);
+  }
+  
+  .price.one .div {
+    color: var(--worket-1-neutrals-neutrals700);
+    flex: 1;
+    font-family: "Poppins-Medium", Helvetica;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 16.8px;
+  }
+  
+  .price.two .div {
+    color: var(--worket-1-base-base-white);
+    font-family: var(--worket-1-desktop-body-caption-accent-font-family);
+    font-size: var(--worket-1-desktop-body-caption-accent-font-size);
+    font-style: var(--worket-1-desktop-body-caption-accent-font-style);
+    font-weight: var(--worket-1-desktop-body-caption-accent-font-weight);
+    letter-spacing: var(--worket-1-desktop-body-caption-accent-letter-spacing);
+    line-height: var(--worket-1-desktop-body-caption-accent-line-height);
+    width: 97px;
+  }
+
+  .ChoseWorkitWrapper{
+    width: 709px;
+    height: 362px;
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    & h1{
+        font-family: Poppins;
+        font-size: 50px;
+        font-weight: 600;
+        line-height: 67px;
+        text-align: center;
+         
+    }
+
+    & ul li{
+          font-family: Poppins;
+          font-size: 24px;
+         font-weight: 600;
+         line-height: 32.16px;
+         text-align: center;
+
+        & span{
+            font-family: Poppins;
+         font-size: 24px;
+         font-weight: 400;
+            line-height: 32.16px;
+           text-align: center;
+
+        }
+
+    }
+  }
+
+  .MoreInformationWrapper{
+    width: 100%;
+    height: 251px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start ;
+    justify-content: center;
+    padding-left: 200px;
+
+    & h1{
+        font-family: Poppins;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 48px;
+        text-align: left;
+
+    }
+
+    & p{
+        font-family: Poppins;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 40px;
+        text-align: left;
+
+    }
+
+  }
+
+  .NoteWrapper{
+    width:100%;
+    height: 163px;
+    margin-left: 390px;
+    margin-top: 40px;
+
+    & h1{
+        font-family: Poppins;
+       font-size: 32px;
+        font-weight: 600;
+        line-height: 48px;
+        text-align: left;
+
+    }
+    & p{
+        font-family: Poppins;
+       font-size: 24px;
+       font-weight: 400;
+       line-height: 36px;
+       text-align: left;
+
+    }
+
+
+  }
+  

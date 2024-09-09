@@ -1,0 +1,133 @@
+.AboutUsContainer{
+    width: 100%;
+    height: auto;
+    background-color: #E3EDF9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.firstsection{
+    height: 70vh;
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+
+}
+.lef{
+    height: 100%;
+    width: 45%;
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 90px;
+    gap: 40px;
+
+    & h1{
+        font-family: Poppins;
+        font-size: 50px;
+        font-weight: 600;
+        line-height: 67px;
+        color: #2E2E2E;
+
+    }
+
+    & p{
+        font-family: Poppins;
+        font-size: 27px;
+        font-weight: 400;
+        line-height: 41.04px;
+        color: #2E2E2E;
+
+
+    }
+
+    
+
+
+}
+
+.righ{
+    height: 100%;
+    width: 45%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-right: 120px;
+   
+    
+
+    & img{
+        width: 572px;
+        height: 440px;
+    }
+}
+
+.WhoWeareContainer{
+    width: 1439px;
+height: 1862px;
+gap: 40px;
+/* background-color: black; */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+
+.OurMissionWrapper{
+    width:1439px;
+height: 550px;
+padding: 60px 176px 60px 176px;
+gap: 195px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+}
+
+.OurMissionIMage{
+
+
+
+}
+
+.OurMissionWords{
+    width: 444px;
+ height: 400px;
+ padding: 0px 0px 24px 0px;
+ gap: 13px;
+ justify-content: center;
+ align-items: center;
+ display: flex;
+ flex-direction: column;
+
+ & h1{
+    font-family: Poppins;
+font-size: 50px;
+font-weight: 600;
+line-height: 32px;
+text-align: left;
+color: #000000;
+
+ }
+
+ & p{
+    font-family: Poppins;
+font-size: 27px;
+font-weight: 400;
+line-height: 31px;
+text-align: right;
+color: #2E2E2E;
+
+ }
+
+
+}

@@ -10,6 +10,11 @@ import StaffSignUp from './Components/Staff/StaffSignUp'
 import "@fontsource/poppins"
 import ForgotPassword from './Components/Forgot/ForgotPassword'
 import StaffPage from './Components/StaffPage/StaffPage'
+import Home from './Components/Home/Home'
+import Features from './Features/Features'
+import ContactUs from './ContactUs/ContactUs'
+import AboutUs from './Components/About/AboutUs'
+import Pricing from './pricing/Pricing'
 
 
 const App = () => {
@@ -17,7 +22,17 @@ const App = () => {
   return (
     <HashRouter>
       <Routes>
-        <Route path='/' element = {<GetStarted/>} />
+        {/* <Route path='/' element={<Home/>}/> */}
+      <Route
+        path='/'
+      element = {<Layout/>}
+      />
+        <Route path ="home" element={<Home/>} /> 
+        <Route path = "features" element = {<Features/>}/>
+        <Route path = "contactus" element = {<ContactUs/>}/>
+        <Route path = "aboutus" element = {<AboutUs/>}/>
+        <Route path = "pricing" element = {<Pricing/>}/>
+        <Route path='/GetStarted' element = {<GetStarted/>} />
         <Route path='/SignUp' element = {<SignUp/>} />
         <Route path='/Login' element = {<Login/>} />
         <Route path='/StaffSignUp' element = {<StaffSignUp/>} />

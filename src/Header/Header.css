@@ -1,0 +1,67 @@
+.HeaderContainer{
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #FAFAFA;
+
+}
+.leftnav{
+  width: 15%;
+  height: 25px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding-left: 80px;
+}
+
+.middleNav{
+  width: 45%;
+  height: 30px;
+  font-family: "Poppins-Regular", Helvetica;
+ font-size: 16px;
+  font-weight: 400;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  color: #2E2E2E ;
+
+  & h{
+    width: 99px;
+  }
+}
+
+.rightn{
+  width: 25%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-right:80px ;
+
+  & button{
+  background-color:#003166;
+  width:112px;
+  height: 44px;
+ border-radius:10px;
+  opacity: 0px;
+  text-align: center;
+  color:#FAFAFA ;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+
+  & h5{
+font-family: Poppins;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+text-align: left;
+
+  }
+
+  }
+}
+
